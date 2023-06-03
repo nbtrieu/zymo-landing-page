@@ -299,7 +299,8 @@ input {
 }
 
 .comment-box input {
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   border-radius: 9px;
   border: 0.75px solid #000000;
   outline: none;
@@ -307,3 +308,8 @@ input {
   min-height: 100%;
 }
 
+.message p {
+  color: var(--primary);
+  font-style: italic;
+  font-size: 1.25rem;
+}
