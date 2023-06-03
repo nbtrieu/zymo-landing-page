@@ -1,4 +1,6 @@
 import { useRef } from 'react';
+import Hero from '../Hero';
+
 import banner from '../../assets/banner.jpg';
 import bullseyeIcon from '../../assets/bullseye_icon.jpg';
 import checkmarkIcon from '../../assets/checkmark_icon.jpg';
@@ -35,8 +37,8 @@ function Header(props) {
           </button>
         </div>
       </div>
-      <div className='mt-3' ref={scollToRef}>
-        Contact form here
+      <Hero></Hero>
+      <div ref={scollToRef}>
         {props.children}
       </div>
     </header>

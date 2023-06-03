@@ -1,9 +1,12 @@
-import Header from './components/Header/Header'
+import Header from './components/Header/Header';
+import ContactForm from './components/ContactForm/ContactForm';
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      <Header>
+        <ContactForm></ContactForm>
+      </Header>
     </div>
   );
 }
