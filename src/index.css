@@ -7,6 +7,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -107,8 +109,25 @@ header h2 {
   margin-left: 20rem;
 }
 
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .mr-2 {
   margin-right: 2rem !important;
+}
+
+.mr-3 {
+  margin-right: 3rem !important;
+}
+
+.mr-4 {
+  margin-right: 4rem !important;
+}
+
+.mr-5 {
+  margin-right: 5rem !important;
 }
 
 .ml-negative-2-5 {
@@ -117,6 +136,14 @@ header h2 {
 
 .ml-3 {
   margin-left: 3rem !important;
+}
+
+.ml-5 {
+  margin-left: 5rem !important;
+}
+
+.ml-6 {
+  margin-left: 6rem !important;
 }
 
 .ml-10 {
@@ -236,8 +263,8 @@ header h2 {
 }
 
 .col-2 {
-  flex: 0 0 30%;
-  max-width: 30%;
+  flex: 0 0 25%;
+  max-width: 25%;
 }
 
 .col-3 {
@@ -276,6 +303,7 @@ input {
   border-radius: 9px;
   border: 0.75px solid #000000;
   outline: none;
-  min-width: 98%;
-  /* min-height: 100%; */
+  min-width: 85%;
+  min-height: 100%;
 }
+

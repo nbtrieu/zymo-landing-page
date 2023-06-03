@@ -4,9 +4,12 @@ import ContactForm from './components/ContactForm/ContactForm';
 function App() {
   return (
     <div className="App">
-      <Header>
-        <ContactForm></ContactForm>
-      </Header>
+      <main>
+        <Header>
+          <ContactForm></ContactForm>
+        </Header>
+      </main>
+      
     </div>
   );
 }
