@@ -2,6 +2,7 @@
 ## Description
 
 This application is a responsive landing page that includes a header, hero section, and a contact form.
+[https://nbtrieu.github.io/zymo-landing-page/](https://nbtrieu.github.io/zymo-landing-page/)
 
 ## Table of Content
 
