@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/nbtrieu/zymo-landing-page/static/css/main.b3ae5924.css",
+    "main.js": "/nbtrieu/zymo-landing-page/static/js/main.31d4e1b0.js",
+    "static/js/787.243a32a1.chunk.js": "/nbtrieu/zymo-landing-page/static/js/787.243a32a1.chunk.js",
+    "static/media/banner.jpg": "/nbtrieu/zymo-landing-page/static/media/banner.3242ec7b9e6fb60b9589.jpg",
+    "static/media/graphs_icon.jpg": "/nbtrieu/zymo-landing-page/static/media/graphs_icon.7f9f63a228dc3f849488.jpg",
+    "static/media/bullseye_icon.jpg": "/nbtrieu/zymo-landing-page/static/media/bullseye_icon.9436e9168b8ecf4f8a2b.jpg",
+    "static/media/checkmark_icon.jpg": "/nbtrieu/zymo-landing-page/static/media/checkmark_icon.83218c227233fc903bd4.jpg",
+    "index.html": "/nbtrieu/zymo-landing-page/index.html",
+    "main.b3ae5924.css.map": "/nbtrieu/zymo-landing-page/static/css/main.b3ae5924.css.map",
+    "main.31d4e1b0.js.map": "/nbtrieu/zymo-landing-page/static/js/main.31d4e1b0.js.map",
+    "787.243a32a1.chunk.js.map": "/nbtrieu/zymo-landing-page/static/js/787.243a32a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3ae5924.css",
+    "static/js/main.31d4e1b0.js"
+  ]
+}
