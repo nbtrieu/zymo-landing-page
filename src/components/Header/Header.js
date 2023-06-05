@@ -1,6 +1,6 @@
 import { useRef, useEffect } from 'react';
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import Hero from '../Hero';
 import banner from '../../assets/banner.jpg';
@@ -11,13 +11,13 @@ import graphsIcon from '../../assets/graphs_icon.jpg';
 function Header(props) {
   const scollToRef = useRef();
 
-  // useEffect(() => {
-  //   AOS.init({ duration: 2000 });
-  // }, []);
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
 
   return (
     <div>
-        <section>
+        <section data-aos='fade-right'>
           <div className='banner'>
             <img src={banner} alt='scientists and equipment for lab work'></img>
           </div>
@@ -46,11 +46,11 @@ function Header(props) {
           </div>
         </section>
 
-        <section>
+        <section data-aos='fade-left'>
           <Hero></Hero>
         </section>
 
-        <section>
+        <section data-aos='fade-right'>
           <div ref={scollToRef}>
           {props.children}
         </div>
