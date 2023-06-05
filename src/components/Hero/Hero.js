@@ -1,14 +1,6 @@
-import { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
 export default function Hero() {
-  useEffect(() => {
-    AOS.init({ duration: 2000 });
-  }, []);
-  
   return (
-    <section data-aos='zoom-in'>
+    <section>
       <div className='text-center hero subheading mt-3 px-4 py-2'>
         <h1>Header Text</h1>
         <h2 className='my-2'>Lorem ipsum</h2>

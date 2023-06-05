@@ -48,14 +48,14 @@ h6 {
   text-align: left !important;
 }
 
-header h1 {
+.title h1 {
   font-size: 2.75rem;
   font-weight: 800;
   margin-bottom: 0;
   color: var(--primary);
 }
 
-header h2 {
+.title h2 {
   margin-top: 0;
   font-weight: 400;
 }
@@ -170,7 +170,6 @@ header h2 {
 
 .mt-3 {
   margin-top: var(--spacing-three);
-  margin-bottom: var(--spacing-three);
 }
 
 .mb-2 {
@@ -321,7 +320,7 @@ input {
   border-radius: 9px;
   border: 1px solid var(--tertiary);
   outline: none;
-  width: 100%;
+  width: 98%;
   height: 100%;
 }
 
@@ -364,8 +363,8 @@ input {
   }
 
   .col-2 {
-    flex: 0 0 50% !important;
-    max-width: 50% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
   }
 
   .col-1 {
@@ -377,8 +376,8 @@ input {
     width: 100% !important;
   }
 
-  .comment-box input {
-    min-width: 100% !important;
+  .comment-box textarea {
+    width: 94% !important;
   }
 
   .submit-wrapper {

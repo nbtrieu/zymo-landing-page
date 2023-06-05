@@ -3,7 +3,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import Hero from '../Hero';
-
 import banner from '../../assets/banner.jpg';
 import bullseyeIcon from '../../assets/bullseye_icon.jpg';
 import checkmarkIcon from '../../assets/checkmark_icon.jpg';
@@ -18,43 +17,44 @@ function Header(props) {
 
   return (
     <div>
-      <section data-aos='fade-right'>
-        <div className='banner'>
-          <img src={banner} alt='scientists and equipment for lab work'></img>
-        </div>
-        <div className='text-center'>
-          <h1>Header Text</h1>
-          <h2>Lorem ipsum</h2>
-          <div className='flex-row mt-3 mb-2 flex-center'>
-            <div className='col-3 header-icons'>
-              <img src={checkmarkIcon} alt='check mark icon'></img>
-              <h2 className='my-2'>Lorem ipsum</h2>
+        <section data-aos='fade-right'>
+          <div className='banner'>
+            <img src={banner} alt='scientists and equipment for lab work'></img>
+          </div>
+          <div className='text-center title'>
+            <h1>Header Text</h1>
+            <h2>Lorem ipsum</h2>
+            <div className='flex-row mt-3 mb-2 flex-center'>
+              <div className='col-3 header-icons'>
+                <img src={checkmarkIcon} alt='check mark icon'></img>
+                <h2 className='my-2'>Lorem ipsum</h2>
+              </div>
+              <div className='col-3 header-icons'>
+                <img src={graphsIcon} alt='graphs icon'></img>
+                <h2 className='my-2'>Lorem ipsum</h2>
+              </div>
+              <div className='col-3 header-icons'>
+                <img src={bullseyeIcon} alt='bullseye icon'></img>
+                <h2 className='my-2'>Lorem ipsum</h2>
+              </div>
             </div>
-            <div className='col-3 header-icons'>
-              <img src={graphsIcon} alt='graphs icon'></img>
-              <h2 className='my-2'>Lorem ipsum</h2>
-            </div>
-            <div className='col-3 header-icons'>
-              <img src={bullseyeIcon} alt='bullseye icon'></img>
-              <h2 className='my-2'>Lorem ipsum</h2>
+            <div className='flex-row flex-center'>
+              <button onClick={() => scollToRef.current.scrollIntoView({behavior:"smooth", block: "end", inline:"nearest"})}>
+                Inquire Now
+              </button>
             </div>
           </div>
-          <div className='flex-row flex-center'>
-            <button onClick={() => scollToRef.current.scrollIntoView({behavior:"smooth", block: "end", inline:"nearest"})}>
-              Inquire Now
-            </button>
-          </div>
+        </section>
+
+        <section data-aos='fade-left'>
+          <Hero></Hero>
+        </section>
+
+        <section data-aos='fade-right'>
+          <div ref={scollToRef}>
+          {props.children}
         </div>
-      </section>
-      <section>
-        <Hero></Hero>
-      </section>
-      <section data-aos='flip-right'>
-        <div ref={scollToRef}>
-        {props.children}
-      </div>
-      </section>
-      
+        </section>
     </div>
   ) 
 }
