@@ -1,4 +1,4 @@
-# Portfolio with React
+# Zymo Landing Page
 ## Description
 
 This application is a responsive landing page that includes a header, hero section, and a contact form.
