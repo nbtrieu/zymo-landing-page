@@ -25,7 +25,7 @@ To install all necessary dependencies for development purposes, please run the c
 
 ## Usage
 
-To use this application, open this link: [https://nbtrieu.github.io/zymo-landing-page/](https://nbtrieu.github.io/zymo-landing-page/). Then scroll or click on the Inquire Now button to go straight to the contact form.
+To use this application, open this link: [https://nbtrieu.github.io/zymo-landing-page/](https://nbtrieu.github.io/zymo-landing-page/). Then, scroll or click on the Inquire Now button to go straight to the contact form. At the form, fill out first name, last name, company, role and any additional comments, and click Submit.
 
  
 ![Header](./src/assets/header.png)  
