@@ -1,6 +1,7 @@
 {
   "name": "zymo-landing-page",
   "version": "0.1.0",
+  "homepage": "https://github.com/nbtrieu/zymo-landing-page",
   "private": true,
   "dependencies": {
     "@react-spring/parallax": "^9.7.2",
